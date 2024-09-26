@@ -1,6 +1,5 @@
-import 'package:contact_list/core/resources/data_state.dart';
-import 'package:contact_list/features/login/domain/entities/user.dart';
-
+import '../../../../core/resources/data_state.dart';
+import '../entities/user.dart';
 import '../repository/user_repository.dart';
 
 class LoginUseCase {

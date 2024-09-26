@@ -1,4 +1,4 @@
-import 'package:contact_list/features/login/domain/entities/user.dart';
+import '../../domain/entities/user.dart';
 
 class UserModel extends UserEntity {
   const UserModel({

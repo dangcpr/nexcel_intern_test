@@ -1,7 +1,7 @@
-import 'package:contact_list/features/login/domain/usecases/login_usecase.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../../core/resources/data_state.dart';
+import '../../../domain/usecases/login_usecase.dart';
 import 'login_event.dart';
 import 'login_state.dart';
 

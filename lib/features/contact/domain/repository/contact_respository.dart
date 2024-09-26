@@ -1,6 +1,6 @@
 import '../../../../core/resources/data_state.dart';
 import '../entities/contact.dart';
 
-abstract class ContactRespository {
-  Future<DataState<ContactEntity>> getContactList();
+abstract class ContactRepository {
+  Future<DataState<List<ContactEntity>>> getContactList();
 }
