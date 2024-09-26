@@ -4,11 +4,9 @@ import 'package:contact_list/features/login/domain/entities/user.dart';
 import '../repository/user_repository.dart';
 
 class LoginUseCase {
-  LoginUseCase({
-    required UserRepository userRepository,
-  }) : _userRepository = userRepository;
-
   final UserRepository _userRepository;
+
+  LoginUseCase(UserRepository userRepository) : _userRepository = userRepository;
 
   Future<DataState<UserEntity>> login({
     required String email,
